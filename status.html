@@ -5,12 +5,21 @@
 	<title>Status</title>
 	<link href="/status.css" rel="stylesheet" type="text/css" media="all">
 </head><body>
+	<script>
+		function sendHeight() {
+			const height = document.body.scrollHeight;
+			window.parent.postMessage({ 'iframeHeight': height }, '*');
+		}
+		window.onload = sendHeight;
+		window.onresize = sendHeight;
+	</script>
 	<div id="statuscafe">
 		<div id="statuscafe-username"></div>
 		<div id="statuscafe-content"></div>
 		<script src="/status.js" defer></script>
 	</div>
 </body></html>
+
 
 
 
