@@ -9,6 +9,12 @@
 	font-weight: bold;
 }
 
+::selection {
+	color: #000000;
+	background-color: #FF6EC0;
+	text-shadow: none;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -39,6 +45,7 @@ a {
 span.nbr {
 	white-space: nowrap;
 }
+
 
 
 
