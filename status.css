@@ -26,15 +26,14 @@ body {
 }
 
 #statuscafe-username {
-	padding-bottom: 10px;
-	padding-left: 10px;
+	margin: 15px;
 	border-bottom: 3px solid #FFD943;
-	padding: 5px;
+	padding: 0;
 }
 	
 #statuscafe-content {
-	margin: 0;
-	padding: 10px;
+	margin: 15px;;
+	padding: 0;
 }
 
 a {
@@ -45,6 +44,7 @@ a {
 span.nbr {
 	white-space: nowrap;
 }
+
 
 
 
