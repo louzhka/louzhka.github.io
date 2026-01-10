@@ -27,7 +27,6 @@ body {
 	color: #FFFFFF;
 	font-family: 'EpilepsySans', Tahoma, sans-serif;
 	font-size: 22px;
-	text-wrap: wrap;
 }
 
 span.nbr {
@@ -36,6 +35,7 @@ span.nbr {
 
 #statuscafe-username {
 	width: 200px;
+	text-wrap: balance;
 }
 
 #statuscafe-username {
@@ -54,6 +54,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
