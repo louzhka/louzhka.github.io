@@ -50,10 +50,11 @@ span.nbr {
 }
 
 @media only screen and (max-width: 800px) {
-	#statuscafe-username {
+	#statuscafe {
 		width: 100%;
 	}
 }
+
 
 
 
