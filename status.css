@@ -15,6 +15,11 @@
 	text-shadow: none;
 }
 
+a {
+    color:  #FF6EC0;
+	font-weight: bold;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -22,30 +27,20 @@ body {
 	color: #FFFFFF;
 	font-family: 'EpilepsySans', Tahoma, sans-serif;
 	font-size: 22px;
-	border: none;
-}
-
-#statuscafe-username {
-	margin: 15px;
-	border-bottom: 3px solid #FFD943;
-	padding: 0;
-}
-	
-#statuscafe-content {
-	margin: 15px;;
-	padding: 0;
-}
-
-a {
-    color:  #FF6EC0;
-	font-weight: bold;
 }
 
 span.nbr {
 	white-space: nowrap;
 }
 
-
+#statuscafe-username {
+	padding: 15px;
+	border-bottom: 3px solid #FFD943;
+}
+	
+#statuscafe-content {
+	padding: 15px;
+}
 
 
 
