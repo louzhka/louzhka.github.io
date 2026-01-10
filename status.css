@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: EpilepsySans;
-	src: url(/fonts/EpilepsySansBold.ttf) format("truetype");
+	src: url(/EpilepsySansBold.ttf) format("truetype");
 	font-weight: bold;
 }
 
@@ -32,4 +32,5 @@
 	margin: 0;
 	padding: 10px;
 }
+
 
