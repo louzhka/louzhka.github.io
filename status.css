@@ -35,12 +35,14 @@ span.nbr {
 
 #statuscafe-username {
 	padding: 15px;
+	padding-top: 5px;
 	border-bottom: 3px solid #FFD943;
 }
 	
 #statuscafe-content {
 	padding: 15px;
 }
+
 
 
 
