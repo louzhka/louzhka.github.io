@@ -29,6 +29,11 @@ body {
 	font-size: 22px;
 }
 
+html {
+	scrollbar-color: #FF6EC0 #FFD943;
+	scrollbar-width: thin;
+}
+
 span.nbr {
 	white-space: nowrap;
 }
@@ -54,6 +59,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
