@@ -15,10 +15,6 @@
 	text-shadow: none;
 }
 
-* {
-	box-sizing: border-box;
-}
-
 a {
     color:  #FF6EC0;
 	font-weight: bold;
@@ -31,6 +27,7 @@ body {
 	color: #FFFFFF;
 	font-family: 'EpilepsySans', Tahoma, sans-serif;
 	font-size: 22px;
+	text-wrap: wrap;
 }
 
 span.nbr {
@@ -57,6 +54,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
