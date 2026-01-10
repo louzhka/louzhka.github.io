@@ -21,6 +21,8 @@ body {
 #statuscafe-username {
 	padding-bottom: 10px;
 	padding-left: 10px;
+	border-bottom: 3px solid #FFD943;
+	padding: 5px;
 }
 	
 #statuscafe-content {
@@ -33,7 +35,3 @@ a {
 	font-weight: bold;
 }
 
-div.winbar {
-	border-bottom: 3px solid #FFD943;
-	padding: 5px;
-}
