@@ -34,6 +34,10 @@ span.nbr {
 }
 
 #statuscafe-username {
+	width: 200px;
+}
+
+#statuscafe-username {
 	padding: 15px;
 	padding-top: 5px;
 	border-bottom: 3px solid #FFD943;
@@ -43,6 +47,7 @@ span.nbr {
 	padding: 15px;
 	padding-top: 5px;
 }
+
 
 
 
