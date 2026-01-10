@@ -33,7 +33,7 @@ span.nbr {
 	white-space: nowrap;
 }
 
-#statuscafe-username {
+#statuscafe{
 	width: 200px;
 	text-wrap: balance;
 }
@@ -54,6 +54,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
