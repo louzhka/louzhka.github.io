@@ -4,21 +4,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Status</title>
 	<link href="/status.css" rel="stylesheet" type="text/css" media="all">
-	<script>
-		function sendHeight() {
-    	const height = document.documentElement.scrollHeight;
-    	window.parent.postMessage({
-					type: 'setHeight', height: height
-				},
-      			'https://louzhka.neocities.org'
-    		);}
-  		window.addEventListener('load', sendHeight);
-  		window.addEventListener('resize', sendHeight);
-	</script>
 </head><body>
 	<div id="statuscafe">
 		<div id="statuscafe-username"></div>
 		<div id="statuscafe-content"></div>
 		<script src="/status.js" defer></script>
 	</div>
+	<script>
+		function sendHeight() {
+			const height = document.body.scrollHeight;
+			window.parent.postMessage({ frameHeight: height }, '*');
+		}
+		window.addEventListener('load', sendHeight);
+		window.addEventListener('resize', sendHeight);
+	</script>
 </body></html>
