@@ -42,7 +42,8 @@ span.nbr {
 }
 
 #statuscafe {
-	width: 200px;
+	width: 100%;
+    max-width: 200px;
 	text-wrap: pretty;
 }
 
@@ -64,6 +65,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
