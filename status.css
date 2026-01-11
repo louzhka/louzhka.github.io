@@ -43,7 +43,6 @@ span.nbr {
 
 #statuscafe {
 	width: 100%;
-    max-width: 200px;
 	text-wrap: pretty;
 }
 
@@ -59,25 +58,3 @@ span.nbr {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-
-@media only screen and (max-width: 800px) {
-	#statuscafe {
-		width: 100%;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
