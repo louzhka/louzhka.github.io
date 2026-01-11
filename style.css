@@ -1,0 +1,60 @@
+@font-face {
+	font-family: EpilepsySans;
+	src: url(/fonts/EpilepsySans.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: EpilepsySans;
+	src: url(/fonts/EpilepsySansBold.ttf) format("truetype");
+	font-weight: bold;
+}
+
+::selection {
+	color: #000000;
+	background-color: #FF6EC0;
+	text-shadow: none;
+}
+
+a {
+    color:  #FF6EC0;
+	font-weight: bold;
+	cursor: url('/i/pointer.png') 5 0, pointer;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	background: #000000;
+	color: #FFFFFF;
+	font-family: 'EpilepsySans', Tahoma, sans-serif;
+	font-size: 22px;
+	text-wrap: pretty;
+}
+
+html {
+	scrollbar-color: #FF6EC0 #FFD943;
+	scrollbar-width: thin;
+	cursor: url('/i/cursor.png'), auto;
+}
+
+span.nbr {
+	white-space: nowrap;
+}
+
+#statuscafe {
+	width: 100%;
+}
+
+#statuscafe-username {
+	padding: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #FFD943;
+}
+	
+#statuscafe-content {
+	padding: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
