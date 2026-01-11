@@ -24,6 +24,7 @@ a {
 body {
 	margin: 0;
 	padding: 0;
+	overflow-y: hidden;
 	background: #000000;
 	color: #FFFFFF;
 	font-family: 'EpilepsySans', Tahoma, sans-serif;
@@ -63,6 +64,7 @@ span.nbr {
 		width: 100%;
 	}
 }
+
 
 
 
