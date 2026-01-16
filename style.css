@@ -21,6 +21,11 @@ a {
 	cursor: url('/i/pointer.png') 5 0, pointer;
 }
 
+a:hover {
+	text-decoration: none;
+	color: #FFD943;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -64,3 +69,4 @@ span.nbr {
 		font-size: 1.4em;
 	}
 }
+
