@@ -14,7 +14,7 @@
 				document.getElementById("statuscafe-content").innerHTML = "No status yet."
 				return
 			}
-				document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/louzhka" target="_blank">' + r.author + '</a> ' + r.face + ' <span class="nbr">' + r.timeAgo + '</span>'
+				document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/louzhka" target="_blank">' + r.author + '</a> <span style="font-family:'SerenityOSEmoji'">' + r.face + '</span> <span class="nbr">' + r.timeAgo + '</span>'
 				document.getElementById("statuscafe-content").innerHTML = r.content
 			})
 			//да, я просто пофиксила оригинальный скрипт, чтобы время красиво отображалось в одну строку, не разрывалось
@@ -32,3 +32,4 @@
 		resizeObserver.observe(document.body);
 	</script>
 </body></html>
+
