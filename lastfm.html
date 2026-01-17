@@ -5,5 +5,15 @@
 	<title>Last.fm widget</title>
 	<script src="lastfm.js" type="module"></script>
 </head><body>
-	<lastfm-tracks interval="35" user="louzhka" apikey="a1fe92d6c9a3e7c6e23c2054a8a24137" class="no-albums no-scroll" style="padding: 0;"></lastfm-tracks>
+	<style>
+		lastfm-tracks {
+			box-sizing: border-box;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+	<div>
+		<lastfm-tracks interval="35" user="louzhka" apikey="a1fe92d6c9a3e7c6e23c2054a8a24137" class="no-albums"></lastfm-tracks>
+	</div>
 </body></html>
