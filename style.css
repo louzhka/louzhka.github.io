@@ -1,12 +1,6 @@
 @font-face {
-	font-family: EpilepsySans;
-	src: local("Epilepsy Sans"), url(/fonts/EpilepsySans.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: EpilepsySans;
-	src: local("Epilepsy Sans Bold"), url(/fonts/EpilepsySansBold.ttf) format("truetype");
-	font-weight: bold;
+	font-family: CustomFontTtf16H30;
+	src: local("Custom Font ttf 16h 3.0"), url(/fonts/CustomFontTtf16H30.ttf) format("truetype");
 }
 
 @font-face {
@@ -40,7 +34,7 @@ body {
 	overflow-y: hidden;
 	background: #000000;
 	color: #F0F0F0;
-	font-family: 'EpilepsySans', Tahoma, sans-serif;
+	font-family: 'CustomFontTtf16H30', Tahoma, sans-serif;
 	font-size: 22px;
 	text-wrap: pretty;
 }
